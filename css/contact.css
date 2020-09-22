@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    color:White;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+#Form{
+    display: block;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    background-color: #1d1d1e67;
+    width: 1000px;
+    height: 450px;
+    border-radius: 10px;
+}
+form{
+    margin: 0 auto;
+    width: 900px;
+    padding: 1em;
+    border: 1px solid #CCCC;
+    border-radius: 1em;
+}
+form div + div{
+    margin-top: 1em;
+}
+
+label{
+
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    height: 40px;
+    -moz-box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+input#email, #msg{
+    position: relative;
+}
+
+input:focus, textarea:focus{
+    border-color: #000;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+#button{
+    padding-left: 90px;
+}
+
+button{
+    margin-left: .5em;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #1d1d1e;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgba(133, 130, 130, 0.493);
+    color:White;
+}
+
+#Form h1{
+    text-align: center;
+    margin: 10px;
+}
+
+#imgs{
+    position: absolute;
+    top: 16%;
+    left: 56%;
+}

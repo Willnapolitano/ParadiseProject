@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    background-image: url(/imagens/66289fbd9593eca7331650895e0c93dd.jpg);
+    color: rgb(255, 255, 255);
+}
+.man{
+    position: absolute;
+    margin: 100px;
+    left: 150px;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    background-color: #1d1d1e67;
+    border-radius: 15px;
+}
+.maint{
+    position: absolute;
+    left: 39%;
+    top: 120px;
+    font-family: 'Montserrat', sans-serif;
+    color: white
+}
+#img1{
+    position: relative;
+    top: 50px;
+    left: -350px;
+}
+.art{
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff8e;
+}
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.nextpage{
+    position: relative;
+    top: 250px;
+    right: -600px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.nextpage:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #acacac;
+    padding: 5px;
+    display: block;
+}

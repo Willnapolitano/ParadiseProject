@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-image: url(/imagens/66289fbd9593eca7331650895e0c93dd.jpg);
+}
+header{
+    background-color: #1d1d1e67;
+    height: 80px;
+}
+.title{
+    color: White;
+    position: relative;
+    bottom: -10px;
+    width: 500px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.menu{
+    display: block;
+}
+.menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    bottom: 45px;
+    right: -1150px;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px
+}
+.menu a:hover{
+    font-size: 23px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.menu a#num1:hover{
+    text-decoration-color: red;
+}
+.menu a#num2:hover{
+    text-decoration-color: yellow;
+}
+.menu a#num3:hover{
+    text-decoration-color: green;
+}
+.menu a#num4:hover{
+    text-decoration-color: blue;
+}
+#foot{
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background-color: #1d1d1e9d;
+    color: white;
+    bottom: 0px;
+    font-size: 30px;
+    right: 42%;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
